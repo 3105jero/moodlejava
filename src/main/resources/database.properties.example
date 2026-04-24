@@ -1,0 +1,17 @@
+# ============================================================
+#  Configuración de base de datos — MySQL
+#  Cambia los valores según tu entorno local
+# ============================================================
+#db.url      = jdbc:mysql://mysql-278383dhd-{tu nombre}-740f.h.{gestor}.com:{puertp}/appdb?sslMode=REQUIRED
+#db.user     = (Tu user)
+#db.password = password
+#db.driver   = com.mysql.cj.jdbc.Driver
+
+
+
+ ── Alternativa PostgreSQL ──
+to postgresql
+db.url      = jdbc:postgresql://aws-1-us-east-2.pooler.{gestor}.com:{gestor}/postgres?sslmode=require
+db.user     = User
+db.password = password
+db.driver   = org.postgresql.Driver
